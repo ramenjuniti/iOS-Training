@@ -16,6 +16,7 @@
 		F55086DE266C83CA00CDF921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55086DD266C83CA00CDF921 /* main.m */; };
 		F55086E8266C83CA00CDF921 /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55086E7266C83CA00CDF921 /* ToDoTests.m */; };
 		F55086F3266C83CA00CDF921 /* ToDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55086F2266C83CA00CDF921 /* ToDoUITests.m */; };
+		F5508702266D022200CDF921 /* AddController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5508701266D022200CDF921 /* AddController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F55086EE266C83CA00CDF921 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55086F2266C83CA00CDF921 /* ToDoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoUITests.m; sourceTree = "<group>"; };
 		F55086F4266C83CA00CDF921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5508700266D022200CDF921 /* AddController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddController.h; sourceTree = "<group>"; };
+		F5508701266D022200CDF921 /* AddController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		F55086CA266C83C900CDF921 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				F5508700266D022200CDF921 /* AddController.h */,
+				F5508701266D022200CDF921 /* AddController.m */,
 				F55086CB266C83C900CDF921 /* AppDelegate.h */,
 				F55086CC266C83C900CDF921 /* AppDelegate.m */,
 				F55086CE266C83C900CDF921 /* SceneDelegate.h */,
@@ -268,6 +273,7 @@
 			files = (
 				F55086D3266C83C900CDF921 /* ViewController.m in Sources */,
 				F55086CD266C83C900CDF921 /* AppDelegate.m in Sources */,
+				F5508702266D022200CDF921 /* AddController.m in Sources */,
 				F55086DE266C83CA00CDF921 /* main.m in Sources */,
 				F55086D0266C83C900CDF921 /* SceneDelegate.m in Sources */,
 			);
