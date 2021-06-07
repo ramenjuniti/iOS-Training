@@ -18,9 +18,6 @@
     // Do any additional setup after loading the view.
 }
 
-- (IBAction)addButton:(id)sender {
-}
-
 /*
 #pragma mark - Navigation
 
