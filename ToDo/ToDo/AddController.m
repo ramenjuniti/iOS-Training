@@ -9,6 +9,8 @@
 
 @interface AddController ()
 
+@property NSString *todoText;
+
 @end
 
 @implementation AddController
@@ -16,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.inputText.delegate = self;
+    self.todoText = @"";
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)sender {
+    [sender resignFirstResponder];
+
+    self.todoText = sender.text;
+
+    NSLog(@"%@", self.todoText);
+
+    return TRUE;
 }
 
 /*
