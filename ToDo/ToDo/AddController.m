@@ -27,9 +27,11 @@
 
     self.todoText = sender.text;
 
-    NSLog(@"%@", self.todoText);
-
     return TRUE;
+}
+
+- (IBAction)addButton:(id)sender {
+    NSLog(@"%@", self.todoText);
 }
 
 /*

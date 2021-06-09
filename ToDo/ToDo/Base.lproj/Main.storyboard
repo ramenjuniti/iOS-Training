@@ -81,6 +81,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addButton:" destination="Acf-jj-XAK" eventType="touchUpInside" id="APQ-HA-BSp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DcS-5H-d35"/>
