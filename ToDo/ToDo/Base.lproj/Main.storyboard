@@ -44,12 +44,18 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Fw1-6u-SfT"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fBa-IU-POz"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Cyf-X6-1eI"/>
+                    <connections>
+                        <outlet property="view" destination="it5-G0-GxS" id="sVT-Jz-znf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +95,6 @@
                         <viewLayoutGuide key="safeArea" id="DcS-5H-d35"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gGe-0h-7vT"/>
                     <connections>
                         <outlet property="inputText" destination="ZMn-ax-8tV" id="rvc-fD-czO"/>
                     </connections>

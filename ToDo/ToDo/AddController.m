@@ -32,6 +32,7 @@
 
 - (IBAction)addButton:(id)sender {
     NSLog(@"%@", self.todoText);
+    self.todoText = @"";
 }
 
 /*
